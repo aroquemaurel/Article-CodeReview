@@ -5,7 +5,12 @@
   "title" : "Pourquoi faire de la revue de code ?",
   "introduction" : "introduction.md",
   "conclusion" : "conclusion.md",
-  "children" : [ ],
+  "children" : [ {
+    "object" : "extract",
+    "slug" : "la-revue-de-code",
+    "title" : "La revue de code",
+    "text" : "la-revue-de-code.md"
+  } ],
   "version" : 2,
   "licence" : "CC BY",
   "description" : "",
