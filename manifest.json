@@ -1,0 +1,13 @@
+{
+  "type" : "TUTORIAL",
+  "object" : "container",
+  "slug" : "pourquoi-faire-de-la-revue-de-code-",
+  "title" : "Pourquoi faire de la revue de code ?",
+  "introduction" : "introduction.md",
+  "conclusion" : "conclusion.md",
+  "children" : [ ],
+  "version" : 2,
+  "licence" : "CC BY",
+  "description" : "",
+  "type" : "ARTICLE"
+}
