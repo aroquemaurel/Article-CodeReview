@@ -15,6 +15,11 @@
     "slug" : "les-avantages-a-la-revue-de-code",
     "title" : "Les avantages à la revue de code",
     "text" : "les-avantages-a-la-revue-de-code.md"
+  }, {
+    "object" : "extract",
+    "slug" : "faire-une-bonne-revue-de-code",
+    "title" : "Faire une bonne revue de code",
+    "text" : "faire-une-bonne-revue-de-code.md"
   } ],
   "version" : 2,
   "licence" : "CC BY",
