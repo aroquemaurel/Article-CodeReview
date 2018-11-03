@@ -8,7 +8,8 @@ Il est très utile de s'outiller pour effectuer de bonnes revues de code. C'est 
 
 La revue de code est globalement plus simple sur des outils modernes tel que Git, car ils permettent de créer facilement une branche, il est alors aisé de faire relire notre branche. Je connais principalement des outils pour Git que je vais vous présenter ici, ce sont les plus connus. 
 
-[[information]] Pour d'autres systèmes tel que SVN, CVS, Mercurial, bazaar etc. vous pouvez regarder du côté de [Phabricator](https://www.phacility.com/), [Review board](https://www.reviewboard.org/) ou [Crucible](https://fr.atlassian.com/software/crucible). Il en existe d'autres mais je ne les connais pas, un peu de recherche et vous devriez trouver votre bonheur. ;)
+[[information]] 
+| Pour d'autres systèmes tel que SVN, CVS, Mercurial, bazaar etc. vous pouvez regarder du côté de [Phabricator](https://www.phacility.com/), [Review board](https://www.reviewboard.org/) ou [Crucible](https://fr.atlassian.com/software/crucible). Il en existe d'autres mais je ne les connais pas, un peu de recherche et vous devriez trouver votre bonheur. ;)
 
 Ces trois outils sont assez similaires en terme d'utilisation. Ils sont uniquement prévus pour Git. La principale différence vient du coût et du buisiness model: 
 
@@ -54,4 +55,4 @@ Ici, il s'agit d'un problème totalement naturel et humain. Il faut accepter que
 
 De manière générale, que ça soit l'auteur de la revue ou le relecteur, les deux personnes doivent avoir une attitude positive.
 
-![[Commit Strip](https://www.commitstrip.com/fr/2015/02/10/the-truth-about-code-reviews/)](images/Strip.jpg)
+![Commit Strip revue de code](/media/galleries/5520/114a976c-cf5c-4633-9a4e-a65077621462.jpg)

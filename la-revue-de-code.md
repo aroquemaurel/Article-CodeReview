@@ -22,8 +22,8 @@ Il est également possible de faire tourner le relecteur, chaque personne sera a
 
 Il y a plusieurs manières d'aborder une revue de code, et celle-ci dépends principalement du contexte du projet et de la culture de l'entreprise. En voici quelques exemples : 
 
-- Les Pull ou Merge requests : ce sont des méthodes très utilisés dans le monde du libre notamment au travers de [Github](https://github.com/) ou [Gitlab](https://gitlab.com/). Un développeur envoie ses changements, et une autre personne valide, et intègre le moment venu. ![exemple-PR](images/exemple-PR.png)
+- Les Pull ou Merge requests : ce sont des méthodes très utilisés dans le monde du libre notamment au travers de [Github](https://github.com/) ou [Gitlab](https://gitlab.com/). Un développeur envoie ses changements, et une autre personne valide, et intègre le moment venu. 
+![Exemple de Pull Request sur Github](/media/galleries/5520/d9894a55-e740-487f-b8e0-90ce6db71c14.png)
 - « Analyse par-dessus l'épaule » : Deux personnes sont devant l'ordinateur, l'auteur commente son code, et la seconde personne donne éventuellement des conseils ou pose des questions.
 - « Programmation en binôme » : la programmation en binôme repose sur le même principe. Une personne code pendant que la seconde est plus a même de commenter ou poser des questions sur le code. 
-- La revue de code par mail : c'est un technique qui avait court avant la démocratisation des outils, mais il est possible de faire une liste de diffusion, et de s'envoyer des patchs par mail. La relecture se faisant directement par retours de mails. 
-
+- La revue de code par mail : c'est un technique qui avait court avant la démocratisation des outils, mais il est possible de faire une liste de diffusion, et de s'envoyer des patchs par mail. La relecture se faisant directement par retours de mails.
