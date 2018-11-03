@@ -10,6 +10,11 @@
     "slug" : "la-revue-de-code",
     "title" : "La revue de code",
     "text" : "la-revue-de-code.md"
+  }, {
+    "object" : "extract",
+    "slug" : "les-avantages-a-la-revue-de-code",
+    "title" : "Les avantages à la revue de code",
+    "text" : "les-avantages-a-la-revue-de-code.md"
   } ],
   "version" : 2,
   "licence" : "CC BY",
