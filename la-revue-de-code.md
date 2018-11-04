@@ -28,7 +28,7 @@ Il y a plusieurs manières d'aborder une revue de code, et celle-ci dépends pri
 
 - Les Pull ou Merge requests : ce sont des méthodes très utilisés dans le monde du libre notamment au travers de [Github](https://github.com/) ou [Gitlab](https://gitlab.com/). Un développeur envoie ses changements, et une autre personne valide, et intègre le moment venu. 
 - « Analyse par-dessus l'épaule » : Deux personnes sont devant l'ordinateur, l'auteur commente son code, et la seconde personne donne éventuellement des conseils ou pose des questions.
-- « Programmation en binôme » : la programmation en binôme provient de la méthode XP, une méthode agile. Une personne code pendant que la seconde regarde, les rôles sont inversés à intervalle régulier. Ici, la seconde personne est plus a même de commenter ou poser des questions sur le code qui est en train d'être rédigé. 
+- « Programmation en binôme » : la programmation en binôme provient de la [méthode XP](https://fr.wikipedia.org/wiki/Extreme_programming), une méthode agile. Une personne code pendant que la seconde regarde, les rôles sont inversés à intervalle régulier. Ici, la seconde personne est plus a même de commenter ou poser des questions sur le code qui est en train d'être rédigé. 
 - La revue de code par mail : c'est un technique qui avait court avant la démocratisation des outils plus modernes tel que Github, il est possible de faire une simple liste de diffusion, et de s'envoyer des patchs par mail. La relecture se faisant directement par retours de mails.
 
 *[XP]: eXtreme Programming
