@@ -21,20 +21,26 @@ Ces trois outils sont assez similaires en terme d'utilisation. Ils sont uniqueme
 - [Gitlab](https://gitlab.com/), est un projet libre similaire à Github, il permet d'installer une version communautaire. Cela demandera un peu d'administration système et un serveur à disposition. Ils proposent également une version *Entreprise Edition* permettant d'utiliser leurs serveurs
 - [Bitbucket](https://bitbucket.org/) fait partie de la suite Atlassian, il a donc une bonne intégration avec leurs outils tel que Jira
 
-Ces outils sont globalement assez similaires. Le développeur va coder sa fonctionnalité ou corriger son bug sur une branche Git. Une fois qu'il estime avoir terminé son travail et qu'il souhaite une relecture, il peut ouvrir une Pull Request (Github et Bitbucket) ou une Merge request (Gitlab). À ce moment là, un sujet de discussion est ouvert contenant la différence de code, et un espace commentaire. Il est alors possible d'ajouter un commentaire dans le code, ou de mettre des commentaires plus généraux. 
+Le développeur va coder sa fonctionnalité ou corriger son bug sur une branche Git. Une fois qu'il estime avoir terminé son travail et qu'il souhaite une relecture, il peut ouvrir une Pull Request (Github et Bitbucket) ou une Merge request (Gitlab). À ce moment là, un sujet de discussion est ouvert contenant la différence de code, et un espace commentaire. Il est alors possible d'ajouter un commentaire dans le code, ou de mettre des commentaires plus généraux. 
 
 ![Exemple de Pull Request sur Github](/media/galleries/5520/d9894a55-e740-487f-b8e0-90ce6db71c14.png)
 Figure: Exemple de Pull Request sur Github
 
-## L'analyse statique : Sonar
+## Les outils d'intégration continue 
 
-Pour l'analyse statique, cela dépendra complètement de la technologie du projet. L'idée étant de faire une « pré-relecture » par un outil, afin de voir en amont certains bugs possibles ou de non respects de conventions de codage.
+Il est possible de lier l'outil de revue de code à un outil d'intégration continue. Il faut voir ça comme un complément à une bonne revue. Des outils permettent d'effectuer une vérification automatique, et un humain va faire une revue permettant d'améliorer significativement la qualité du projet comme nous l'avons vu précédemment.
 
-Personnellement, j'ai l'habitude d'utiliser [Sonar](https://www.sonarlint.org/). Celui-ci permet d'ajouter plusieurs plugins, il est alors possible de vérifier la qualité statique du code, la duplication de code, le taux de couverture des tests unitaires, du code mort, ...  Lorsqu'un développeur envoie ces modifications de code, une analyse sonar à lieu, et il ajoute éventuellement des commentaires directement sur la Pull Request. Cela permet de gagner du temps en effectuant une première relecture automatisée. C'est une aide précieuse !
+Cet outil peut effectuer plusieurs actions, tel que : 
 
-## L'intégration continue : Jenkins, Gitlab-CI, Travis-CI
+- Compiler le projet
+- Lancer les tests automatisés (unitaires, de non-régression, de performance, ...)
+- Calculer le taux de couverture des tests
+- Effectuer une analyse statique, l'idée est de faire une « relecture » du code par un outil qui va appliquer une « checklist » interne, afin de voir en amont certains bugs possibles ou de non respects de conventions de codage[^sonar]
+- Générer la documentation
 
-Il est également possible de brancher un système d'intégration continue à nos Pull Request. Avant qu'une personne relise le code, l'outil est passé et a vérifié certaines actions. Les actions les plus basiques étant de vérifier que le code compile et que les test unitaires passent. C'est cet outil qui est chargé de lancer l'analyse statique. C'est un peu le chef d'orchestre de tous les outils utilisé avant la revue de code. Cela permet de gagner du temps et d'éviter d'éventuelles régressions. 
+Il existe une multitude d'outils d'intégration continue. Les plus connus sont [Jenkins](https://jenkins.io/), [Gitlab-CI](https://gitlab.com/gitlab-ci) et [Travis-CI](https://travis-ci.org/). Ceux-ci sont capable de mettre des commentaires directement dans la revue de code.
+
+[^sonar]: Pour l'analyse statique, l'outil dépends de la technologie utilisée. Un des plus connus multi-langage est [SonarLint](https://www.sonarlint.org/).
 
 # Une bonne revue de code, c'est un effort collectif
 
@@ -51,7 +57,7 @@ Tout le monde est globalement épuisé. La relecture ne sera pas efficace. Il fa
 
 ## Anticiper les revues sur le planning
 
-Si une deadline est proche, la revue de code va être précipité. Elle risque d'être bâclée, et si des modifications ou du refactoring devrait avoir lieu, il risque de ne pas être fait, et de provoquer de la dette technique. Globalement, une revue de code, ça se prévoit, il est donc préférable de prendre en compte le temps de relecture d'une part, et les allers-retours d'autre part. 
+Si une deadline est proche, la revue de code va être précipitée. Elle risque d'être bâclée, et si des modifications ou du refactoring devrait avoir lieu, il risque de ne pas être fait, et de provoquer de la dette technique. Globalement, une revue de code, ça se prévoit, il est donc préférable de prendre en compte le temps de relecture d'une part, et les allers-retours d'autre part. 
 
 ## Être dans le bon état d'esprit
 

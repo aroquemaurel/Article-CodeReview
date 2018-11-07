@@ -12,12 +12,13 @@ Un second regard à l’application permet de limiter la duplication de code gr�
 
 # On limite les bugs
 
-Le relecteur va avoir un œil extérieur, contrairement à l'auteur qui était plongé dans son code. Il va également tester le code et donc : 
+Le relecteur ne va pas forcément tester le code, mais va avoir un œil extérieur, contrairement à l'auteur qui était plongé dans son code, ainsi il va : 
 
 - Penser à des cas limites que le développeur aurai pu oublier
 - Certains bugs sont visibles uniquement en lisant le code. Même un développeur relisant son propre code pourrait voir d'éventuels problèmes, de la même manière qu'un auteur doit relire son papier avant de le soumettre. La revue de code oblige l'équipe à avoir cette approche.
-- Deux personnes comprendront plus facilement le besoin du client. Il peut arriver que le développeur ai mal compris, une deuxième personne pourra voir le problème avant intégration.
-- Tester sur un second environnement, cela peut également jouer. Dans mon cas personnel, il nous arrive régulièrement de voire des problèmes d'affichage Windows / Linux en revue de code.
+- Deux personnes comprendront plus facilement le besoin à la source du changement. Il peut arriver que le développeur ai mal compris, une deuxième personne pourra voir le problème avant intégration.
+
+Le relecteur peut suggérer l'ajout de tests unitaires pour des cas qui n'auraient pas été prévus initialement. C'est un bon moyen de vérifier que le patch est fonctionnel, et que les cas limites sont correctement gérés, tout en améliorant la qualité des tests. 
 
 # On apprend
 
@@ -28,9 +29,17 @@ Ce n'est pas forcément le premier avantage auquel on pense, mais de mon expéri
 
 On peut aussi apprendre sur des questions métiers, où des questions d'architecture de notre application. Ces échanges sont toujours bénéfiques.
 
+# On enrichit la documentation
+
+La revue de code est le meilleur moment pour poser des questions. Lorsqu'un non-expert est relecteur, il peut poser des questions sur un aspect qu'il ne comprends pas. Cela ne veut pas forcément dire qu'il y a un problème. Par contre, cela veut dire qu'il y a du passage de connaissance nécessaire.
+
+C'est une bonne occasion pour améliorer l'existant. Cela peut être des commentaires manquants, où plus globalement un problème de documentation, ça peut-être le bon moment pour améliorer cette documentation, ce qui pourra ensuite profiter à toute l'équipe.
+
 # On communique
 
 Ça peut paraître assez basique. Mais le simple fait d'avoir une revue de code va obliger l'équipe à communiquer. Expliquer ce que chacun a fait, comment. Justifier les différents choix.
+
+Une revue de code est l'occasion rêvée pour poser des questions, y répondre, de discuter.
 
 # On peut former les nouveaux 
 

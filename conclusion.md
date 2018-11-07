@@ -7,4 +7,4 @@ Et surtout, n'oubliez pas :
 - Restez positifs 
 - Faites de petites revues
 - Prévoyez les revues
-- Laissez les outils faire une partie du boulot
+- Les outils peuvent effectuer un travail complémentaire
