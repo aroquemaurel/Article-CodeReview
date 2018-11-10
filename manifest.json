@@ -3,23 +3,23 @@
   "object" : "container",
   "slug" : "pourquoi-faire-de-la-revue-de-code-",
   "title" : "Pourquoi faire de la revue de code ?",
-  "introduction" : "introduction.md",
-  "conclusion" : "conclusion.md",
+  "introduction" : "src/0-introduction.md",
+  "conclusion" : "src/4-conclusion.md",
   "children" : [ {
     "object" : "extract",
     "slug" : "la-revue-de-code",
     "title" : "La revue de code",
-    "text" : "la-revue-de-code.md"
+    "text" : "src/1-la-revue-de-code.md"
   }, {
     "object" : "extract",
     "slug" : "pourquoi-faire-de-la-revue-de-code",
     "title" : "Pourquoi faire de la revue de code ?",
-    "text" : "pourquoi-faire-de-la-revue-de-code.md"
+    "text" : "src/2-pourquoi-faire-de-la-revue-de-code.md"
   }, {
     "object" : "extract",
     "slug" : "faire-une-bonne-revue-de-code",
     "title" : "Faire une bonne revue de code",
-    "text" : "faire-une-bonne-revue-de-code.md"
+    "text" : "src/3-faire-une-bonne-revue-de-code.md"
   } ],
   "version" : 2,
   "licence" : "CC BY",
