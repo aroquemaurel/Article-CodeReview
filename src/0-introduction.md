@@ -3,7 +3,7 @@ Si vous avez déjà travaillé à plusieurs sur un projet logiciel plus ou moins
 - une dette technique difficilement rattrapable ;
 - du code incompréhensible ;
 - des *bugs* qui auraient dû être vus avant la livraison ;
-- toute la connaissance technique du projet porté par une seule personne.
+- toute la connaissance technique du projet portée par une seule personne.
 
 Une des solutions pour limiter ce genre de problème, c'est la revue de code. Voyons un peu son intérêt et ce que ça peut apporter dans un projet logiciel. :)
 

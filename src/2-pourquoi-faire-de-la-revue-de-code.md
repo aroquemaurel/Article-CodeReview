@@ -2,11 +2,11 @@
 
 # On écrit du code lisible et propre
 
-Quand un projet se met à la revue de code, c'est souvent le premier objectif : avoir un code plus lisible et globalement de meilleur qualité. Et en effet, ça marche.
+Quand un projet se met à la revue de code, c'est souvent le premier objectif : avoir un code plus lisible et globalement de meilleure qualité. Et en effet, ça marche.
 
 L'auteur va s'obliger à relire son propre code, il va donc ajouter des commentaires et tout faire pour qu'il soit le plus compréhensible possible pour que la revue de code se passe bien. 
 
-Si le code est intégré, cela veut dire qu'au moins deux personnes ont estimés que le code était lisible et élégant. On peut extrapoler un peu et se dire que si deux personnes de l'équipe le valident, le reste de l'équipe devrait également le comprendre sans difficulté. 
+Si le code est intégré, cela veut dire qu'au moins deux personnes ont estimé que le code était lisible et élégant. On peut extrapoler un peu et se dire que si deux personnes de l'équipe le valident, le reste de l'équipe devrait également le comprendre sans difficulté. 
 
 Par ailleurs, un second regard à l’application permet de limiter la duplication de code grâce à une deuxième vision. « J'avais codé *ça* pour un autre module, on doit pouvoir le réutiliser plutôt que réinventer la roue ! ». 
 
@@ -21,7 +21,7 @@ Le relecteur peut suggérer l'ajout de tests unitaires pour des cas qui n'auraie
 
 # On apprend
 
-Ce n'est pas forcément la première chose à laquelle on pense quand on parle de revue de code, mais de mon expérience la revue de code permet d'apprendre. Que ça soit pour l'auteur ou pour le relecteur (principalement dans le cas où les relecteurs « tournent »).
+Ce n'est pas forcément la première chose à laquelle on pense quand on parle de revue de code, mais de mon expérience la revue de code permet d'apprendre. Que ce soit pour l'auteur ou pour le relecteur (principalement dans le cas où les relecteurs « tournent »).
 
 - Le relecteur peut tomber sur quelque chose d'inconnu : « oh, tiens ! Je ne connais pas ça ? Comment ça marche ? » L'auteur va ainsi expliquer ce qu'il a fait et en quoi il estime que c'est avantageux. 
 - Mais on peut avoir l'effet inverse : « tu pourrais utiliser cette technique, c'est plus optimisé / élégant / efficace ! » 
@@ -46,4 +46,4 @@ La revue de code est déjà souvent utilisée pour les nouveaux développeurs, m
 
 Elle est d'autant plus importante pour lui, qu'il ne connaît ni l'application, ni le métier. C'est une bonne occasion pour lui faire des remarques, lui expliquer des choses, lui montrer les bonnes méthodes limitant la duplication de code. D'une entreprise à l'autre, les approches peuvent être différentes, il est donc important de lui transmettre les habitudes de l'équipe.
 
-Une fois qu'il aura bien appréhendé le projet, le fait de relire le code de développeurs plus expérimentés lui permettra d'apprendre de nouvelles choses et de prendre confiance en lui.
+Une fois qu'il aura bien appréhendé le projet, le fait de relire le code de développeurs plus expérimentés lui permettra d'apprendre de nouvelles choses et de prendre confiance en soi.

@@ -15,10 +15,10 @@ La revue de code est globalement plus simple avec un système de versionnement m
 
 Ces outils permettent principalement d'avoir un fonctionnement *asynchrone* : le développeur propose son code et le relecteur peut le relire un peu plus tard. Il n'est pas nécessaire d'avoir les deux personnes disponibles en même temps, comme ça peut-être le cas avec la méthode « d'analyse par-dessus l'épaule » par exemple.
 
-Ces trois outils sont assez similaires en termes d'utilisation. La principale différence vient du coût et du *buisiness model* : 
+Ces trois outils sont assez similaires en termes d'utilisation. La principale différence vient du coût et du *business model* : 
 
 - [Github](https://github.com/), très connu et utilisé dans le monde du libre. Il n'est gratuit que si le projet est *open source*, sinon il faut payer pour un nombre de dépôt fermé. 
-- [Gitlab](https://gitlab.com/), est un projet libre similaire à Github, il permet d'installer une version communautaire. Cela demandera un peu d'administration système et un serveur à disposition. Ils proposent également une version *Entreprise Edition* permettant d'utiliser leurs serveurs.
+- [Gitlab](https://gitlab.com/), est un projet libre similaire à Github, il permet d'installer une version communautaire. Cela demandera un peu d'administration système et un serveur à disposition. L'entreprise Gitlab propose également une version *Entreprise Edition* permettant d'utiliser leurs serveurs.
 - [Bitbucket](https://bitbucket.org/) fait partie de la suite [Atlassian](https://www.atlassian.com/), il a donc une bonne intégration avec leurs outils tel que [Jira](https://www.atlassian.com/software/jira).
 
 Le développeur va coder sa fonctionnalité ou corriger son *bug* sur une branche. Une fois qu'il estime avoir terminé son travail et qu'il souhaite une relecture, il peut ouvrir une *pull request* (Github et Bitbucket) ou une *merge request* (Gitlab).
@@ -32,7 +32,7 @@ Figure: Exemple de pull request sur Github
 
 Il est possible de lier l'outil de revue de code à un outil d'intégration continue. Il faut voir ça comme un complément à une bonne revue. Des outils permettent d'effectuer une vérification automatique et un humain va faire une revue permettant d'améliorer significativement la qualité du projet comme nous l'avons vu précédemment.
 
-Cet outil peut effectuer plusieurs actions, tel que : 
+Cet outil peut effectuer plusieurs actions, telles que : 
 
 - Compiler le projet.
 - Lancer des tests automatisés (unitaires, de non-régression, de performance, ...).
@@ -52,21 +52,21 @@ Pour une bonne revue de code, il faut être en bonne condition. Aussi bien du c�
 
 Pour que ça se passe bien pour tout le monde, et surtout pour qu'elles soient les plus efficaces possibles, il faut faire des petites revues. Il n'est agréable pour personne d'avoir 10 000 lignes de code à relire. 
 
-- L'auteur à envie que son travail soit intégré rapidement et sera réfractaire aux modifications. 
+- L'auteur a envie que son travail soit intégré rapidement et sera réfractaire aux modifications. 
 - Le relecteur n'a pas envie de tout relire, il va aller au plus vite.
 
 Tout le monde est globalement épuisé. La relecture ne sera pas efficace. Il faut essayer de faire des petites tâches qui sont intégrées sur une branche de développement au fur et à mesure. 
 
 ## Anticiper les revues sur le planning
 
-Si une *deadline* est proche, la revue de code va être précipitée. Elle risque d'être bâclée et si des modifications ou du *refactoring* doivent avoir lieu, ils risquent de ne pas être fait et de provoquer de la dette technique. Globalement, une revue de code, ça se prévoit, il est donc préférable de prendre en compte le temps de relecture d'une part, et les allers-retours d'autre part. 
+Si une *deadline* est proche, la revue de code va être précipitée. Elle risque d'être bâclée et si des modifications ou du *refactoring* doivent avoir lieu, ils risquent de ne pas être fait et de provoquer de la dette technique. Globalement, une revue de code, ça se prévoit, il est donc préférable de prendre en compte le temps de relecture d'une part, et les aller-retours d'autre part. 
 
 ## Être dans le bon état d'esprit
 
 Ici, il s'agit d'un problème humain : il faut accepter que son travail soit analysé et éventuellement critiqué. 
 
 - Que ça soit du côté de l'auteur, qui doit accepter les critiques et essayer de les prendre en compte si possible.
-- Ou du relecteur, qui ne doit pas avoir peur de donner des remarques sur le travail de son collègue. Mais surtout, il doit argumenter son avis et présenter les choses de manières à tirer le développeur vers le haut. Il est intéressant de donner des remarques positives et négatives. Cela peut permettre de motiver l'auteur et d'éviter qu'il ne se concentre que sur le négatif.
+- Ou du relecteur, qui ne doit pas avoir peur de donner des remarques sur le travail de son collègue. Mais surtout, il doit argumenter son avis et présenter les choses de manière à tirer le développeur vers le haut. Il est intéressant de donner des remarques positives et négatives. Cela peut permettre de motiver l'auteur et d'éviter qu'il ne se concentre que sur le négatif.
 
 Une bonne revue doit susciter des échanges, des discussions, des remises en question.
 
