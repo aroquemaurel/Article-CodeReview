@@ -3,7 +3,7 @@ Si vous avez déjà travaillé à plusieurs sur un projet logiciel plus ou moins
 - une dette technique difficilement rattrapable ;
 - du code incompréhensible ;
 - des *bugs* qui auraient dû être vus avant la livraison ;
-- toute la connaissance technique du projet porté par une seule personne.
+- toute la connaissance technique du projet portée par une seule personne.
 
 Une des solutions pour limiter ce genre de problème, c'est la revue de code. Voyons un peu son intérêt et ce que ça peut apporter dans un projet logiciel. :)
 
@@ -20,7 +20,7 @@ Le principe est assez simple : un autre regard sur notre travail est assez bén�
 
 La revue de code se fait de plus en plus régulièrement dans des entreprises de différentes tailles, aussi bien dans des petites *startups* de quelques développeurs que dans des mastodontes tel que [Google](https://www.quora.com/What-is-Googles-internal-code-review-policy-process) ou le projet [Linux](https://github.com/torvalds/linux/pulls). 
 
-Une revue fait donc intervenir au moins deux personnes, une personne qui soumet le code, que j’appellerai « l'auteur », et une ou plusieurs personne qui relit le code, le « relecteur ». 
+Une revue fait donc intervenir au moins deux personnes, une personne qui soumet le code, que j’appellerai « l'auteur », et une ou plusieurs personnes qui relisent le code, le « relecteur ». 
 
 # Qui peut relire le code
 
@@ -28,7 +28,7 @@ Il y a deux écoles, les deux ont pour moi leurs avantages et leurs inconvénien
 
 Un développeur expérimenté, tel que le *lead dev* va relire l'ensemble du code de l'équipe. Ce développeur ayant la meilleure connaissance de l'application et du métier, il sera plus à même de relire le code de l'équipe. L'inconvénient est que la connaissance de l'application restera au sein de la même personne, si un jour ce développeur est absent ce sera dommageable pour le projet. 
 
-Il est également possible de faire tourner le relecteur, chaque personne sera amené à lire le code d'un autre développeur. Le gros avantage est de responsabiliser le développeur, et de faire monter en compétence l'ensemble de l'équipe, cela permet également de partager la connaissance du projet. Toutefois, cette solution peut être plus difficile à mettre en place. En effet, si le projet est conséquent, chaque développeur n'a pas toujours une vision assez globale du projet pour relire efficacement le code de quelqu'un d'autre. De plus, la relecture de code n'est pas quelque chose de simple, un bon développeur peut avoir du mal à se plonger dans le code de quelqu'un d'autre. Il sera donc nécessaire de faire monter l'équipe en compétence.
+Il est également possible de faire tourner le relecteur, chaque personne sera amenée à lire le code d'un autre développeur. Le gros avantage est de responsabiliser le développeur, et de faire monter en compétence l'ensemble de l'équipe, cela permet également de partager la connaissance du projet. Toutefois, cette solution peut être plus difficile à mettre en place. En effet, si le projet est conséquent, chaque développeur n'a pas toujours une vision assez globale du projet pour relire efficacement le code de quelqu'un d'autre. De plus, la relecture de code n'est pas quelque chose de simple, un bon développeur peut avoir du mal à se plonger dans le code de quelqu'un d'autre. Il sera donc nécessaire de faire monter l'équipe en compétence.
 
 Ces deux approches ne sont pas forcément exclusives. Il est aussi possible d'avoir d'abord une relecture par un autre développeur, et que ça soit le *lead dev* qui valide l'intégration. Cela permet  de combiner les deux avantages, en revanche, cela va prendre plus de temps, en raison d'une double validation. 
 
@@ -38,15 +38,15 @@ Il y a plusieurs manières d'aborder une revue de code. Celle-ci dépend princip
 
 - Les *pull* ou *merge requests* : ce sont des méthodes très utilisées dans le monde du libre notamment au travers de [Github](https://github.com/) ou [Gitlab](https://gitlab.com/). Un développeur envoie ses changements et une autre personne valide et intègre le moment venu. 
 - « Analyse par-dessus l'épaule » : deux personnes sont devant l'ordinateur, l'auteur commente son code et la seconde personne donne éventuellement des conseils ou pose des questions.
-- La revue de code par *mail* : c'est une technique qui avait court avant la démocratisation des outils plus modernes tel que Github, il est possible de faire une simple liste de diffusion et de s'envoyer des *patchs* par *mail*. La relecture se faisant directement par retours de *mails*.À ce stade, vous êtes peut-être en train de vous dire que ça semble une bonne idée, mais que ça va prendre beaucoup de temps et d'énergie. Je ne peux pas vous contredire sur ce point. Bien que le temps de la revue soit variable d'un développeur à l'autre, oui, ça peut être long. Mais je pense que le temps passé est contrebalancé par les avantages. À long terme, cela permettra d'avoir un projet plus maintenable, avec une équipe efficace. 
+- La revue de code par *mail* : c'est une technique qui avait cours avant la démocratisation des outils plus modernes tel que Github, il est possible de faire une simple liste de diffusion et de s'envoyer des *patchs* par *mail*. La relecture se faisant directement par retours de *mails*.À ce stade, vous êtes peut-être en train de vous dire que ça semble une bonne idée, mais que ça va prendre beaucoup de temps et d'énergie. Je ne peux pas vous contredire sur ce point. Bien que le temps de la revue soit variable d'un développeur à l'autre, oui, ça peut être long. Mais je pense que le temps passé est contrebalancé par les avantages. À long terme, cela permettra d'avoir un projet plus maintenable, avec une équipe efficace. 
 
 # On écrit du code lisible et propre
 
-Quand un projet se met à la revue de code, c'est souvent le premier objectif : avoir un code plus lisible et globalement de meilleur qualité. Et en effet, ça marche.
+Quand un projet se met à la revue de code, c'est souvent le premier objectif : avoir un code plus lisible et globalement de meilleure qualité. Et en effet, ça marche.
 
 L'auteur va s'obliger à relire son propre code, il va donc ajouter des commentaires et tout faire pour qu'il soit le plus compréhensible possible pour que la revue de code se passe bien. 
 
-Si le code est intégré, cela veut dire qu'au moins deux personnes ont estimés que le code était lisible et élégant. On peut extrapoler un peu et se dire que si deux personnes de l'équipe le valident, le reste de l'équipe devrait également le comprendre sans difficulté. 
+Si le code est intégré, cela veut dire qu'au moins deux personnes ont estimé que le code était lisible et élégant. On peut extrapoler un peu et se dire que si deux personnes de l'équipe le valident, le reste de l'équipe devrait également le comprendre sans difficulté. 
 
 Par ailleurs, un second regard à l’application permet de limiter la duplication de code grâce à une deuxième vision. « J'avais codé *ça* pour un autre module, on doit pouvoir le réutiliser plutôt que réinventer la roue ! ». 
 
@@ -61,7 +61,7 @@ Le relecteur peut suggérer l'ajout de tests unitaires pour des cas qui n'auraie
 
 # On apprend
 
-Ce n'est pas forcément la première chose à laquelle on pense quand on parle de revue de code, mais de mon expérience la revue de code permet d'apprendre. Que ça soit pour l'auteur ou pour le relecteur (principalement dans le cas où les relecteurs « tournent »).
+Ce n'est pas forcément la première chose à laquelle on pense quand on parle de revue de code, mais de mon expérience la revue de code permet d'apprendre. Que ce soit pour l'auteur ou pour le relecteur (principalement dans le cas où les relecteurs « tournent »).
 
 - Le relecteur peut tomber sur quelque chose d'inconnu : « oh, tiens ! Je ne connais pas ça ? Comment ça marche ? » L'auteur va ainsi expliquer ce qu'il a fait et en quoi il estime que c'est avantageux. 
 - Mais on peut avoir l'effet inverse : « tu pourrais utiliser cette technique, c'est plus optimisé / élégant / efficace ! » 
@@ -86,7 +86,7 @@ La revue de code est déjà souvent utilisée pour les nouveaux développeurs, m
 
 Elle est d'autant plus importante pour lui, qu'il ne connaît ni l'application, ni le métier. C'est une bonne occasion pour lui faire des remarques, lui expliquer des choses, lui montrer les bonnes méthodes limitant la duplication de code. D'une entreprise à l'autre, les approches peuvent être différentes, il est donc important de lui transmettre les habitudes de l'équipe.
 
-Une fois qu'il aura bien appréhendé le projet, le fait de relire le code de développeurs plus expérimentés lui permettra d'apprendre de nouvelles choses et de prendre confiance en lui.On va essayer de voir de quelle manière il est possible de mettre en place de la revue de code dans un projet, et, surtout, de faire en sorte qu'elle se passe le mieux possible. 
+Une fois qu'il aura bien appréhendé le projet, le fait de relire le code de développeurs plus expérimentés lui permettra d'apprendre de nouvelles choses et de prendre confiance en soi.On va essayer de voir de quelle manière il est possible de mettre en place de la revue de code dans un projet, et, surtout, de faire en sorte qu'elle se passe le mieux possible. 
 
 # Les outils
 
@@ -103,10 +103,10 @@ La revue de code est globalement plus simple avec un système de versionnement m
 
 Ces outils permettent principalement d'avoir un fonctionnement *asynchrone* : le développeur propose son code et le relecteur peut le relire un peu plus tard. Il n'est pas nécessaire d'avoir les deux personnes disponibles en même temps, comme ça peut-être le cas avec la méthode « d'analyse par-dessus l'épaule » par exemple.
 
-Ces trois outils sont assez similaires en termes d'utilisation. La principale différence vient du coût et du *buisiness model* : 
+Ces trois outils sont assez similaires en termes d'utilisation. La principale différence vient du coût et du *business model* : 
 
 - [Github](https://github.com/), très connu et utilisé dans le monde du libre. Il n'est gratuit que si le projet est *open source*, sinon il faut payer pour un nombre de dépôt fermé. 
-- [Gitlab](https://gitlab.com/), est un projet libre similaire à Github, il permet d'installer une version communautaire. Cela demandera un peu d'administration système et un serveur à disposition. Ils proposent également une version *Entreprise Edition* permettant d'utiliser leurs serveurs.
+- [Gitlab](https://gitlab.com/), est un projet libre similaire à Github, il permet d'installer une version communautaire. Cela demandera un peu d'administration système et un serveur à disposition. L'entreprise Gitlab propose également une version *Entreprise Edition* permettant d'utiliser leurs serveurs.
 - [Bitbucket](https://bitbucket.org/) fait partie de la suite [Atlassian](https://www.atlassian.com/), il a donc une bonne intégration avec leurs outils tel que [Jira](https://www.atlassian.com/software/jira).
 
 Le développeur va coder sa fonctionnalité ou corriger son *bug* sur une branche. Une fois qu'il estime avoir terminé son travail et qu'il souhaite une relecture, il peut ouvrir une *pull request* (Github et Bitbucket) ou une *merge request* (Gitlab).
@@ -120,7 +120,7 @@ Figure: Exemple de pull request sur Github
 
 Il est possible de lier l'outil de revue de code à un outil d'intégration continue. Il faut voir ça comme un complément à une bonne revue. Des outils permettent d'effectuer une vérification automatique et un humain va faire une revue permettant d'améliorer significativement la qualité du projet comme nous l'avons vu précédemment.
 
-Cet outil peut effectuer plusieurs actions, tel que : 
+Cet outil peut effectuer plusieurs actions, telles que : 
 
 - Compiler le projet.
 - Lancer des tests automatisés (unitaires, de non-régression, de performance, ...).
@@ -140,21 +140,21 @@ Pour une bonne revue de code, il faut être en bonne condition. Aussi bien du c�
 
 Pour que ça se passe bien pour tout le monde, et surtout pour qu'elles soient les plus efficaces possibles, il faut faire des petites revues. Il n'est agréable pour personne d'avoir 10 000 lignes de code à relire. 
 
-- L'auteur à envie que son travail soit intégré rapidement et sera réfractaire aux modifications. 
+- L'auteur a envie que son travail soit intégré rapidement et sera réfractaire aux modifications. 
 - Le relecteur n'a pas envie de tout relire, il va aller au plus vite.
 
 Tout le monde est globalement épuisé. La relecture ne sera pas efficace. Il faut essayer de faire des petites tâches qui sont intégrées sur une branche de développement au fur et à mesure. 
 
 ## Anticiper les revues sur le planning
 
-Si une *deadline* est proche, la revue de code va être précipitée. Elle risque d'être bâclée et si des modifications ou du *refactoring* doivent avoir lieu, ils risquent de ne pas être fait et de provoquer de la dette technique. Globalement, une revue de code, ça se prévoit, il est donc préférable de prendre en compte le temps de relecture d'une part, et les allers-retours d'autre part. 
+Si une *deadline* est proche, la revue de code va être précipitée. Elle risque d'être bâclée et si des modifications ou du *refactoring* doivent avoir lieu, ils risquent de ne pas être fait et de provoquer de la dette technique. Globalement, une revue de code, ça se prévoit, il est donc préférable de prendre en compte le temps de relecture d'une part, et les aller-retours d'autre part. 
 
 ## Être dans le bon état d'esprit
 
 Ici, il s'agit d'un problème humain : il faut accepter que son travail soit analysé et éventuellement critiqué. 
 
 - Que ça soit du côté de l'auteur, qui doit accepter les critiques et essayer de les prendre en compte si possible.
-- Ou du relecteur, qui ne doit pas avoir peur de donner des remarques sur le travail de son collègue. Mais surtout, il doit argumenter son avis et présenter les choses de manières à tirer le développeur vers le haut. Il est intéressant de donner des remarques positives et négatives. Cela peut permettre de motiver l'auteur et d'éviter qu'il ne se concentre que sur le négatif.
+- Ou du relecteur, qui ne doit pas avoir peur de donner des remarques sur le travail de son collègue. Mais surtout, il doit argumenter son avis et présenter les choses de manière à tirer le développeur vers le haut. Il est intéressant de donner des remarques positives et négatives. Cela peut permettre de motiver l'auteur et d'éviter qu'il ne se concentre que sur le négatif.
 
 Une bonne revue doit susciter des échanges, des discussions, des remises en question.
 
